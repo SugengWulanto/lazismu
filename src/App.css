@@ -1,0 +1,300 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+
+.navbar {
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  background-color:white;
+  position: fixed;
+  z-index: 2;
+  font-weight: bold;
+}
+
+.Infaq {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  background-color: rgb(255, 155, 41);
+  border: 1px solid;
+  border-radius: 30px;
+  
+}
+
+.carousel {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  height: 400px;
+  width: 800px;
+  margin-top: 50px;
+}
+.carousel-item {
+  height: 500px;
+}
+.ekonomi {
+  max-width: 100%;
+  display: flex;
+  /* padding: 0px 100px; */
+  justify-content: center;
+  margin: 0px 50px;
+}
+.text-ekonomi {
+  padding: 30px 0px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.text-lorem1 {
+  text-align: center;
+  font-size: 20px;
+}
+.text-bold {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+.berita {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  text-align: center;
+}
+.text-berita {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+.display {
+ display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.link { 
+  display: flex;
+  width: 24%;
+  height: 25%;
+  text-decoration: none;
+}
+.img-flex {
+  margin: 0px 5px;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.img-flex img{
+  margin: 20px 10px;
+  width: 92%;
+  height: 150px;
+}
+.img-flex p{
+  padding: 10px;
+  color: black;
+}
+.img-flex div{
+  display: flex;
+  justify-content: space-between;
+}
+.img-flex:hover {
+  transform: scale(102%);
+  cursor: pointer;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+.infaq {
+  border-radius: 20px;
+  background-color: rgb(250, 114, 3);
+}
+
+.carousel {
+  
+  
+
+
+}
+.d-block {
+  height: 400px;
+}
+.imgBwh {
+  margin-top: 30px;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+.pembungkusAtas {
+  margin: 0px 5%;
+}
+.pembungkusBawah {
+  background-color: rgb(115, 196, 22);
+  margin-top: 20px;
+}
+.bawah {
+  width: 50%;
+  margin: auto;
+  padding: 30px 0px 0px 6%;
+  color: white;
+display: grid;
+grid-template-columns: repeat(2, auto);
+}
+.boldBawah {
+  font-weight: bold;
+  font-size: 20px;
+}
+.cursorP:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.maker {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  width: max-content;
+}
+.maker p{
+  padding:0px 10px;
+  color: gray;
+}
+.maker svg{
+  margin: 2px;
+  
+}
+.maker p span{
+  color: black;
+  padding-left: 5px;
+}
+.bi {
+  margin: 10px;
+  cursor: pointer;
+}
+.copyright {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+.boldImage {
+  font-weight: bold;
+  font-size: 14px;
+}
+.dnPembLogo {
+  display: flex;
+  justify-content: center;
+
+}
+.dnLazismu {
+  width: 50px;
+  height: 40px;
+}
+.dnInfaq {
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  color: gray;
+  cursor: pointer;
+}
+.dnPembIsi {
+  width: 60%;
+  justify-content: center;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.dnPembIsi img{
+  margin: auto;
+  margin-bottom: 20px;
+}
+.dnIsi{
+  padding-top: 20px;
+font-size: 15px;
+color: gray;
+}
+.bagikan {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+}
+.dnImg {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+.bagikan p{
+  padding-top: 13px;
+  padding-right: 8px;
+color: gray;
+}
+.bagikan svg{
+  margin-right: 2px;
+}
+.dnIcons {
+  display: flex;
+  cursor: pointer;
+  color: gray;
+}
+.dnPembIcons {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .bagikan {
+    padding: 20px;
+    text-align: left;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+  }
+.boldImage {
+  font-size: 10px;
+}
+.dnPembIsi {
+  width: 70%;
+}
+
+.img-flex div{
+  display: block;
+}
+.img-flex div p{
+font-size: 8px;
+}
+.img-flex img{
+  height: 60px;
+}
+
+.maker p{
+font-size: 10px;
+}
+.maker svg{
+  width: 10px;
+  height: 10px;
+}
+}
+@media only screen and (max-width: 350px) {
+  .maker {
+    display: block;
+  }
+  .maker p{
+    font-size: 15px;
+    }
+    .dnPembIcons {
+      display: block;
+    }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
